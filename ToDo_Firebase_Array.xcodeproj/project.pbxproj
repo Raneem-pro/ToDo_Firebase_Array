@@ -17,6 +17,7 @@
 		32E5D12B2BDE94A9007B428B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32E5D12A2BDE94A9007B428B /* GoogleService-Info.plist */; };
 		32E5D12D2BDE962A007B428B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5D12C2BDE962A007B428B /* FirebaseManager.swift */; };
 		32E5D1302BDE9757007B428B /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5D12F2BDE9757007B428B /* AddCategoryView.swift */; };
+		32E5D1322BDE9808007B428B /* UpdateCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5D1312BDE9808007B428B /* UpdateCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		32E5D12A2BDE94A9007B428B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		32E5D12C2BDE962A007B428B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		32E5D12F2BDE9757007B428B /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		32E5D1312BDE9808007B428B /* UpdateCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			children = (
 				32E5D1172BDE93C5007B428B /* ContentView.swift */,
 				32E5D12F2BDE9757007B428B /* AddCategoryView.swift */,
+				32E5D1312BDE9808007B428B /* UpdateCategoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E5D1322BDE9808007B428B /* UpdateCategoryView.swift in Sources */,
 				32E5D12D2BDE962A007B428B /* FirebaseManager.swift in Sources */,
 				32E5D1182BDE93C5007B428B /* ContentView.swift in Sources */,
 				32E5D1302BDE9757007B428B /* AddCategoryView.swift in Sources */,
