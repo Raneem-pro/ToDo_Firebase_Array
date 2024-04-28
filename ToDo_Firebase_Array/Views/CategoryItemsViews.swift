@@ -15,7 +15,7 @@ struct CategoryItemsViews: View {
             List{
                 ForEach(category.items){ item in
                     NavigationLink {
-                       
+                        UpdateItemView(category: category, item: item)
                     } label: {
                         Text(item.title)
                     }.swipeActions(edge: /*@START_MENU_TOKEN@*/.trailing/*@END_MENU_TOKEN@*/ , allowsFullSwipe: true){
