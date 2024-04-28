@@ -15,6 +15,7 @@
 		32E5D1272BDE9450007B428B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 32E5D1262BDE9450007B428B /* FirebaseFirestore */; };
 		32E5D1292BDE9450007B428B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 32E5D1282BDE9450007B428B /* FirebaseFirestoreSwift */; };
 		32E5D12B2BDE94A9007B428B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32E5D12A2BDE94A9007B428B /* GoogleService-Info.plist */; };
+		32E5D12D2BDE962A007B428B /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5D12C2BDE962A007B428B /* FirebaseManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		32E5D1192BDE93C8007B428B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32E5D11C2BDE93C8007B428B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		32E5D12A2BDE94A9007B428B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32E5D12C2BDE962A007B428B /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				32E5D1192BDE93C8007B428B /* Assets.xcassets */,
 				32E5D12A2BDE94A9007B428B /* GoogleService-Info.plist */,
 				32E5D11B2BDE93C8007B428B /* Preview Content */,
+				32E5D12C2BDE962A007B428B /* FirebaseManager.swift */,
 			);
 			path = ToDo_Firebase_Array;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E5D12D2BDE962A007B428B /* FirebaseManager.swift in Sources */,
 				32E5D1182BDE93C5007B428B /* ContentView.swift in Sources */,
 				32E5D1162BDE93C5007B428B /* ToDo_Firebase_ArrayApp.swift in Sources */,
 			);
