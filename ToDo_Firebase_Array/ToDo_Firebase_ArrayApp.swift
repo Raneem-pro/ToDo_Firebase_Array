@@ -20,9 +20,12 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 @main
 struct ToDo_Firebase_ArrayApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @StateObject var firebaseManager = FirebaseManager()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(FirebaseManager())
         }
     }
 }
