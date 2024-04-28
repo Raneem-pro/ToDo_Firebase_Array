@@ -19,6 +19,7 @@
 		32E5D1302BDE9757007B428B /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5D12F2BDE9757007B428B /* AddCategoryView.swift */; };
 		32E5D1322BDE9808007B428B /* UpdateCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5D1312BDE9808007B428B /* UpdateCategoryView.swift */; };
 		32E5D1342BDE9A75007B428B /* AddItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5D1332BDE9A75007B428B /* AddItemsView.swift */; };
+		32E5D1362BDE9B54007B428B /* CategoryItemsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E5D1352BDE9B54007B428B /* CategoryItemsViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		32E5D12F2BDE9757007B428B /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
 		32E5D1312BDE9808007B428B /* UpdateCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCategoryView.swift; sourceTree = "<group>"; };
 		32E5D1332BDE9A75007B428B /* AddItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemsView.swift; sourceTree = "<group>"; };
+		32E5D1352BDE9B54007B428B /* CategoryItemsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemsViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				32E5D12F2BDE9757007B428B /* AddCategoryView.swift */,
 				32E5D1312BDE9808007B428B /* UpdateCategoryView.swift */,
 				32E5D1332BDE9A75007B428B /* AddItemsView.swift */,
+				32E5D1352BDE9B54007B428B /* CategoryItemsViews.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			files = (
 				32E5D1322BDE9808007B428B /* UpdateCategoryView.swift in Sources */,
 				32E5D12D2BDE962A007B428B /* FirebaseManager.swift in Sources */,
+				32E5D1362BDE9B54007B428B /* CategoryItemsViews.swift in Sources */,
 				32E5D1182BDE93C5007B428B /* ContentView.swift in Sources */,
 				32E5D1302BDE9757007B428B /* AddCategoryView.swift in Sources */,
 				32E5D1162BDE93C5007B428B /* ToDo_Firebase_ArrayApp.swift in Sources */,

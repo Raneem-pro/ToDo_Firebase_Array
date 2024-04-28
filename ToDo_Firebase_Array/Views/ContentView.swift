@@ -17,7 +17,7 @@ struct ContentView: View {
             List {
                 ForEach(firebaseManager.categories) { category in
                     NavigationLink {
-                        
+                        CategoryItemsViews(category: category)
                     } label: {
                         HStack {
                             Text(category.CategoryName)
